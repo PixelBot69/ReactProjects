@@ -1,0 +1,14 @@
+.image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.but{
+    padding: 2rem;
+    background-color: aqua;
+    border-radius: 2rem;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+}
