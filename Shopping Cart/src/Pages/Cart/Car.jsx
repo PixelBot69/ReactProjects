@@ -9,8 +9,10 @@ export default function Cart() {
   const { cart } = useSelector((state) => state);
 
   useEffect(() => {
-    setTotalCart(cart.reduce((acc, curr) => acc + curr.price, 0));
+    const price =cart.reduce((acc, curr) => acc + curr.price, 0);
+    setTotalCart(price)
   }, [cart]);
+  
 
   console.log(cart, totalCart);
 
