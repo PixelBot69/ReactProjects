@@ -4,7 +4,7 @@ function Exchange() {
     const [amount, setAmount] = useState(1);
     const [fromCurrency, setFromCurrency] = useState('USD');
     const [toCurrency, setToCurrency] = useState('USD');
-    const [exchangeRate, setExchangeRate] = useState(1); // Default value
+    const [exchangeRate, setExchangeRate] = useState(1);
     const [convertedAmount, setConvertedAmount] = useState(0);
 
     useEffect(() => {
